@@ -1,6 +1,5 @@
 
 import React from 'react';
-import css from './OrderConfirmation.module.css';
 
 export default (props) => {
     return (
