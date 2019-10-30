@@ -1,10 +1,10 @@
 .HorizontalMenu li {
-    display: inline-block;
+  display: inline-block;
 }
 .HorizontalMenu {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 .HorizontalMenu a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
