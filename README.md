@@ -1,3 +1,6 @@
+# Burger Builder
+This is a React + MaterialUI version of a burger builder.
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -2,7 +2,6 @@
 import React from 'react';
 import BurgerIngredient from './BurgerIngredient/BurgerIngredient';
 import { Box } from '@material-ui/core';
-import css from './BurgerRepresentation.module.css';
 
 export default (props) => {
     let ingredients = props.order.ingredients;
