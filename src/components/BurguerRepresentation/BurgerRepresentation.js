@@ -1,6 +1,7 @@
 
 import React from 'react';
 import BurgerIngredient from './BurgerIngredient/BurgerIngredient';
+import { Box } from '@material-ui/core';
 import css from './BurgerRepresentation.module.css';
 
 export default (props) => {
@@ -15,10 +16,10 @@ export default (props) => {
     }
     
     return (
-        <React.Fragment>
+        <Box minWidth={240} width="100%" maxWidth={350}>
             <BurgerIngredient itype="breadTop" />
                 {Object.keys(ingredients).reduce((ac,ing) => ac.concat(getIngredients(ing, ingredients[ing])), [])}
             <BurgerIngredient itype="breadBottom"/>
-        </React.Fragment>
+        </Box>
     );
 }
