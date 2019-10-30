@@ -3,7 +3,6 @@
 }
 .ModalGrid {
     height: 100%;
-    pointer-events: none;
 }
 .ModalPaper {
     padding: 20px;
