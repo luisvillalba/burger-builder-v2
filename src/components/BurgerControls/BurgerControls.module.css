@@ -1,14 +1,14 @@
 .Card {
-    padding: 20px;
-    text-align: center
+  padding: 20px;
+  text-align: center;
 }
 
 .Card h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 @media screen and (min-width: 600px) {
-    .Card {
-        padding: 25px;
-    }
+  .Card {
+    padding: 25px;
+  }
 }
