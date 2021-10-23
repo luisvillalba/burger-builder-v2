@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from "react";
 
 export default (props) => {
   return (
@@ -7,4 +6,4 @@ export default (props) => {
       <p>{props.order.total}</p>
     </React.Fragment>
   );
-}
+};
