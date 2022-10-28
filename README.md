@@ -1,6 +1,9 @@
 # Burger Builder
 This is a React + MaterialUI version of a burger builder.
 
+## `Requirements`
+- Node 19.0.0
+
 ## Available Scripts
 
 In the project directory, you can run:
