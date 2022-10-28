@@ -133,8 +133,8 @@ export default class BurgerBuilder extends React.Component {
           </Grid>
         </Grid>
         <Modal
-          aria-labelledby="simple-modal-title"
-          aria-describedby="simple-modal-description"
+          aria-labelledby="modal-title"
+          aria-describedby="modal-description"
           open={this.state.isCheckingOut}
           onClose={this.handleCloseModal}
         >
@@ -208,6 +208,9 @@ export default class BurgerBuilder extends React.Component {
                     <TextField id="ch-cvv" label="CVV" margin="normal" />
                     <br />
                   </form>
+                  <Button onClick={this.setCheckoutStep2} color="primary">
+                    Next
+                  </Button>
                 </Box>
                 <Box
                   value={3}
